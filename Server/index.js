@@ -3,7 +3,7 @@ const app = express();
 
 const userRoutes = require("./routes/Users");
 const profileRoutes = require("./routes/Profile");
-const paymentRoutes = require("./routes/payment");
+const paymentRoutes = require("./routes/Payment");
 const courseRoutes = require("./routes/Course");
 
 const database = require("./config/database");
