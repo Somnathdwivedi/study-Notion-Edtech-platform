@@ -25,7 +25,7 @@ exports.signUp = async (req, res) => {
     } = req.body
     // Check if All Details are there or not
     if (
-      !firstName || {timestamps:true}||
+      !firstName ||
       !lastName ||
       !email ||
       !password ||
